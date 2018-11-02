@@ -38,6 +38,11 @@ bot.on('ready', () => {
 
 bot.on('message' , (message) => {
 
+        if(message.content.toLowerCase().includes(":/")) {
+          message.channel.reply(`${message.author}, NO`)
+          message.delete();
+          return;
+        }
 
 });
 
