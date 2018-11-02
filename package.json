@@ -1,0 +1,32 @@
+{
+  "name": "monomabot",
+  "version": "2.0.3",
+  "description": "A Monoma Bot",
+  "main": "node monoma.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node monoma.js"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CitricRain/monoma-bot"
+  },
+  "author": "KP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CitricRain/monoma-bot"
+  },
+  "homepage": "https://github.com/CitricRain/monoma-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "enmap": "^0.3.2",
+    "express": "^4.15.5",
+    "mathjs": "^5.2.0",
+    "moment": "^2.18.1",
+    "moment-duration-format": "^1.3.0"
+  }
+}
+
